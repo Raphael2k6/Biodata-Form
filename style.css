@@ -1,0 +1,79 @@
+body {
+    background-image: url("img/website_background_wallpapers_007.jpg");
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    line-height:1.2;
+    padding:0;
+    margin:0;
+}
+nav {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+
+header {
+    background:#020230;
+     color: cornsilk;
+     padding-top: 10px;
+     min-height:70px;
+     border-bottom: #08f0dc 5px solid;     
+}
+
+header li{
+    display:inline;
+    padding:0 20px 0 20px;
+}
+
+img {
+    margin-left: 5%;
+}
+
+h2 {
+    color: cornsilk;
+    text-align: center;
+}
+
+.form {
+    display: block;
+    background-color: rgb(14, 10, 105);
+    color: cornsilk;
+    width: 300px;
+    border-radius: 25px;
+    padding: 50px;
+    margin: 0 auto;
+}
+
+ul {
+    margin-left: 40%;
+}
+footer {
+    text-align: center;
+    font-size: 12px;
+}
+form p {
+    padding: 0;
+    margin: 0;
+}
+input[type="text"],[type="email"],[type="password"]{
+    padding: 5px;
+    width:95%;
+}
+
+.btn {
+    padding-top: 3px;
+    padding-bottom: 3px;
+    padding-right: 20px;
+    border-radius: 25px;
+    
+}
+
+.btn:hover {
+    background-color: rgb(105, 207, 233);
+}
+
+.btn1:hover {
+    background-color: rgb(243, 123, 86);
+}
+
+
+
